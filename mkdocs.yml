@@ -1,0 +1,50 @@
+site_name: Keith's Homelab
+site_description: A professional, multi-phase homelab documentation hub.
+site_author: Keith
+repo_url: https://github.com/abendorg/homelab-docs
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+  palette:
+    scheme: slate
+
+nav:
+nav:
+  - Home: index.md
+  - Phases:
+      - Phase 1:
+          - Index: phases/phase-1/index.md
+          - Overview: phases/phase-1/overview.md
+          - Step 1: phases/phase-1/steps/step-1-domain.md
+          - Step 2: phases/phase-1/steps/step-2-cloudflare.md
+          - Step 3: phases/phase-1/steps/step-3-zoho.md
+          - Step 4: phases/phase-1/steps/step-4-smtp2go.md
+          - Step 5: phases/phase-1/steps/step-5-dmarc.md
+          - Step 6: phases/phase-1/steps/step-6-opendns.md
+          - Step 7: phases/phase-1/steps/step-7-feedly.md
+          - Step 8: phases/phase-1/steps/step-8-infinityfree.md
+          - Troubleshooting: phases/phase-1/troubleshooting.md
+          - Outcomes: phases/phase-1/outcomes.md
+      - Phase 2: phases/phase-2/index.md
+      - Phase 3: phases/phase-3/index.md
+      - Phase 4: phases/phase-4/index.md
+      - Phase 5: phases/phase-5/index.md
+      - Phase 6: phases/phase-6/index.md
+      - Phase 7: phases/phase-7/index.md
+      - Phase 8: phases/phase-8/index.md
+  - Shared Resources:
+      - Diagrams: shared/diagrams/index.md
+      - Docker Compose: shared/docker-compose/index.md
+      - Templates: shared/templates/index.md
+      - Glossary: shared/glossary.md
+  - About:
+      - Methodology: about/methodology.md
+      - Philosophy: about/philosophy.md
+      - Security Basics: about/security-basics.md
